@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    box-shadow: 5px 5px 10px rgba(212, 212, 212, 0.3);
+    cursor: default;
+}
+
+table thead tr{
+    background: rgb(226, 202, 156);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 2%;
+}
+
+table tbody td, table thead th{padding: 10px;}
+
+table tbody td{border-bottom: 1px solid #ddd;}
+
+table tbody tr:hover{
+    background-color: rgb(129, 162, 223); cursor: crosshair;
+}
+
+.gray{background: #EEE;}
+
+.white{background: #FFF;}
+

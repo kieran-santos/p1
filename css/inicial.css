@@ -1,0 +1,78 @@
+*{margin: 0%; padding: 0%}
+
+body{
+    background:#383838; padding:0%; font-family: "Reddit Mono", sans-serif;
+    width: 100%;
+}
+
+#titulo {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+header{
+    background-color:#1E1E1E;
+    margin: 0;
+    padding: 2.5%;
+    box-sizing:border-box;
+    height:100%;
+    width:100%;
+    color:rgb(226, 202, 156);
+    text-align:center;
+}
+
+#corpo{
+    background:#EEE;
+    border:1px solid #999;
+    border-radius:5px;
+    box-shadow:5px 5px 10px rgba(0,0,0, .3);
+    margin: 0 auto;
+}
+
+#lista{
+    border:1px solid #d3d3d3;
+    border-radius:5px;
+    box-shadow:5px 5px 10px rgba(230, 230, 230, 0.3);
+}
+
+#produtos{
+    padding: 2%;
+    background-color:#292929;
+    font-family: "Reddit Mono", sans-serif;
+    font-size: 115%;
+    color:#EEE;
+}
+
+header h1{
+    text-align: center;
+    font-size:50px;
+}
+
+header h3 {
+    float: right;
+    font-size: 20px;
+    color:#EEE;
+    margin: 15px;
+}
+
+header h3 a{
+    color:rgb(179, 179, 179);
+}
+
+main{
+    padding:2%;
+}
+
+footer{
+    background: #1E1E1E;
+    text-align: center;
+    padding:2%;
+    border-top: 1px solid #999;
+    color: rgb(226, 202, 156);
+}
+
+#lista{
+    margin-top: 2%
+
+}

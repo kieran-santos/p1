@@ -1,0 +1,41 @@
+fieldset {
+    background: #eee;
+    border: 1px solid rgb(184, 184, 184);
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+legend{
+    background: #eee;
+    padding: 1%;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+label {
+    padding: 10px;
+}
+
+label, input, select {
+    display: block; 
+    box-sizing: border-box;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 1px;
+}
+
+button{
+    background:#eee;
+    cursor:pointer;
+    font-size:20px;
+    border:1px rgb(184, 184, 184);
+    padding: 10px;
+}
